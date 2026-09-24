@@ -12,7 +12,7 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "8609127164"))
 
 BRAND = "🛟 <b>SODO Support</b>"
@@ -23,7 +23,7 @@ USERS_FILE = "known_users.json"
 def load_known_users() -> set:
     if os.path.exists(USERS_FILE):
         try:
-            with open(USERS_FILE, "r") as f:
+            with open(USERS_FILE, "r") as8976765441:AAFlv2Lsph08PcoXCwcx3_78jyqVp1Kw_pg f:
                 return set(json.load(f))
         except (json.JSONDecodeError, IOError):
             return set()

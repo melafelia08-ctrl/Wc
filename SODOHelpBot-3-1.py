@@ -12,7 +12,7 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8976765441:AAFlv2Lsph08PcoXCwcx3_78jyqVp1Kw_pg")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8976765441:AAFB6QeetUHac1ZPBNqSw79FNO29WxxqtLA")
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "8609127164"))
 
 BRAND = "🛟 <b>SODO Support</b>"
